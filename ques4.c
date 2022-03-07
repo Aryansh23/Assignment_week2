@@ -1,7 +1,7 @@
 #include <stdio.h>
-
 int main()
-{ int fibonacci(int i);
+{ 
+  int fibonacci(int i);
   int n,i;
   printf("Enter any number:");
   scanf("%d",&n);
