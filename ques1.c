@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-  int rev(char s1);
+  char rev(char s1);
   char s1[100],s2[100],temp;
   printf("enter str1 ");
   gets(s1);
@@ -17,7 +17,7 @@ int main()
   printf("concat str : %s",s1);
   return 0;
 }
-int rev(char s1)
+char rev(char s1)
 {
   int i,j,len;
   char s1,temp
