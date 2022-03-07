@@ -1,11 +1,8 @@
 #include <stdio.h>
-
-//Compiler version gcc  6.3.0
-
 int main()
 {
   int n,i,j;
-  printf("ENTER SIDE LENTH OF SQUARE:");
+  printf("Enter the side n: ");
   scanf("%d",&n);
   for(i=1;i<=n;i++)
   {
